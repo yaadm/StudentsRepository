@@ -8,8 +8,6 @@
 
      "use strict";
 
-
-
      var siteMenuClone = function() {
 
          $('.js-clone-nav').each(function() {
@@ -307,13 +305,5 @@
 
      };
      siteScroll();
-
-     var fs = require('fs');
-     var yaadm = function() {
-
-         var files = fs.readdirSync('/');
-         console.log('files:' + files);
-     }
-     yaadm();
 
  });
