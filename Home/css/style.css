@@ -1286,7 +1286,7 @@ h5,
 }
 
 .footer-section h3 {
-    font-size: .9rem;
+    font-size: 1.5rem;
     letter-spacing: .1rem;
     text-transform: uppercase;
     color: #000;
@@ -1416,6 +1416,8 @@ h5,
     height: 35px;
     border-radius: 50%;
     background: #7971ea;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .custom-icon-wrap .custom-icon-inner .icon {
@@ -1427,7 +1429,7 @@ h5,
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .custom-icon-wrap h3 {
