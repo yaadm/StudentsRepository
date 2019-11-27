@@ -12,7 +12,7 @@
 
          $('.js-clone-nav').each(function() {
              var $this = $(this);
-             $this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
+             $this.clone(true, true).attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
          });
 
 
