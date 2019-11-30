@@ -30,7 +30,6 @@ body {
 
 .navigation-bar ul {
     list-style-type: none;
-    margin: 0;
     padding-left: var(--main-padding);
     padding-right: var(--main-padding);
     overflow: hidden;
