@@ -1,0 +1,44 @@
+body {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    text-align: center;
+}
+
+.nav-bar ul li a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.header-section {
+    height: 100vh;
+    background-image: url("https://www.tokkoro.com/picsup/2638061-battlefield-1-revolution-4k-pic-hd-desktop.jpg");
+    background-size: cover;
+    background-position: right;
+}
