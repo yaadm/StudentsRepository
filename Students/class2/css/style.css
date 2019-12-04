@@ -1,0 +1,12 @@
+.nav-bar {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar ul {
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: right;
+}
