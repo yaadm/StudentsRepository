@@ -1,3 +1,35 @@
-.nav-bar { 
-    background-color: darkmagenta;
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+.nav-bar {
+  background-color: blue;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar ul li {
+  text-align: center;
+}
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  color: yellow;
+  padding: 15px;
+}
+.nav-bar ul li a:hover {
+  background-color: yellow;
+  color: blue;
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://cdn.hipwallpaper.com/i/56/98/mzPlFM.jpg");
+  background-size: cover;
 }
