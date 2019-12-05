@@ -1,5 +1,6 @@
 body {
     direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -7,6 +8,7 @@ body {
 .nav-bar {
     background-color: cornflowerblue;
     position: fixed;
+    height: 50px;
     top: 0;
     left: 0;
     right: 0;
@@ -37,8 +39,55 @@ body {
 }
 
 .header-section {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("https://www.tokkoro.com/picsup/2638061-battlefield-1-revolution-4k-pic-hd-desktop.jpg");
     background-size: cover;
     background-position: right;
+    background-color: rgba(128, 128, 128);
+    background-blend-mode: multiply;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-section div {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.main-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.main-button:hover {
+    background-color: green;
+}
+
+.cards-container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 0 0 20%;
+    height: 300px;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: gray;
 }
