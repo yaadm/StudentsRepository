@@ -1,3 +1,23 @@
 .nav-bar {
-  background-color: green;
+  background-color: rgb(250, 246, 7);
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar ul li {
+  text-align: center;
+}
+
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+.nav-bar ul li a:hover {
+  background-color: turquoise;
 }
