@@ -111,14 +111,17 @@
                                     <br><br>
 
                                     <h2 class="text-white">לצפייה באתרי התלמידים:</h2>
-                                    <select class="form-control" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                                    <select class="form-control" onchange="this.options[this.selectedIndex].value && (window.open(this.options[this.selectedIndex].value), '_blank') && (this.selectedIndex = 0)">
                                         <option value="" selected>בחר תלמיד</option>
-                                        <option value="../tests/עמית לוי/home.html">עמית לוי</option>
-                                        <option value="../tests/רעות לוי/home.html">רעות לוי</option>
-                                        <option value="../tests/עמית גיבלי/home.html">עמית גיבלי</option>
-                                        <option value="../tests/יואב סגב/index.html">יואב שגב</option>
-                                        <option value="../tests/יהלי כהן/index.html">יהלי כהן</option>
-                                        <option value="../tests/אסף קניג/home.html">אסף קינג</option>
+                                        <option value="../Students/AMIT_gibli/index.html">עמית גיבלי</option>
+                                        <option value="../Students/amitlevi/index.html">עמית לוי</option>
+                                        <option value="../Students/Asaf_koenig/index.html">אסף קואניג</option>
+                                        <option value="../Students/gilad segev/index.html">גלעד שגב</option>
+                                        <option value="../Students/idan_mor/index.html">עידן מור</option>
+                                        <option value="../Students/ORI COHEN/index.html">אורי כהן</option>
+                                        <option value="../Students/ori_yehuda/index.html">אורי יהודה</option>
+                                        <option value="../Students/reutlevi/index.html">רעות לוי</option>
+                                        <option value="../Students/yotam-tovim/index.html">יותם טובים</option>
                                       </select>
                                 </div>
 
@@ -523,26 +526,22 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 ml-auto">
+                    <div class="col-md-3 ml-auto">
                         <h3>קישורים</h3>
                         <ul class="list-unstyled footer-links">
                             <li><a href="#home-section">בית</a></li>
                             <li><a href="#courses-section">קורסים</a></li>
                             <li><a href="#programs-section">תוכניות</a></li>
                             <li><a href="#teachers-section">מורים</a></li>
-                            <li><a href="https://github.com/yaadm/StudentsRepository/tree/master/Students">קישור לקוד של התלמידים</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-md-4">
-                        <!-- <h3>Subscribe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus?</p>
-                        <form action="#" class="footer-subscribe">
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control rounded-0" placeholder="Email">
-                                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
-                            </div>
-                        </form> -->
+                    <div class="col-md-3">
+                        <h3>קישורים לתלמידים</h3>
+                        <ul class="list-unstyled footer-links">
+                            <li><a href="https://drive.google.com/drive/folders/1_A-c63X7uaJx-ZM72zRDEhUawXV2tTGz?usp=sharing" target="_blank">תקיית המצגות</a></li>
+                            <li><a href="https://github.com/yaadm/StudentsRepository/tree/master/Students" target="_blank">קוד מקור של התלמידים</a></li>
+                        </ul>
                     </div>
 
                 </div>
