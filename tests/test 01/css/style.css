@@ -86,9 +86,37 @@ body {
 
 .card {
     flex: 0 0 20%;
-    height: 300px;
     min-width: 200px;
-    padding: 15px;
     border-radius: 5px;
-    background-color: gray;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.card-image {
+    height: 200px;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/ZvgZYM8zJdqBqA8ZYUkVwj-650-80.jpg");
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 15px;
+}
+
+.category {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.card-content {
+    padding: 15px;
 }
