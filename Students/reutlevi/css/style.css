@@ -2,6 +2,7 @@
   background-color: beige;
 }
 
-.nav-bar {
+.nav-bar ul {
   display: flex;
+  list-style: none;
 }
