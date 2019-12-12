@@ -1,5 +1,9 @@
+body {
+  direction: rtl;
+}
+
 .nav-bar {
-  background-color: rgb(250, 246, 7);
+  background-color: rgb(255, 0, 0);
 }
 
 .nav-bar ul {
@@ -19,5 +23,10 @@
   padding: 15px;
 }
 .nav-bar ul li a:hover {
-  background-color: turquoise;
+  background-color: rgb(89, 0, 255);
+}
+
+.header-section {
+  height: 100vh;
+  background-image: url("https://ae01.alicdn.com/kf/HTB1r1EXapmWBuNjSspdq6zugXXaD/-.jpg");
 }
