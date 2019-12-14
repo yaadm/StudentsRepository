@@ -1,7 +1,6 @@
 .nav-bar {
   background-color: slategray;
 }
-
 .nav-bar ul {
   display: flex;
   list-style: none;
