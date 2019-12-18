@@ -106,7 +106,7 @@ body {
     background-color: tomato;
     color: white;
     font-weight: bold;
-    padding: 5px;
+    padding: 6px 25px;
 }
 
 .bg-blue {
@@ -120,3 +120,12 @@ body {
 .card-content {
     padding: 15px;
 }
+
+.card-content div {
+    font-size: 14px;
+    color: #878787;
+    line-height: 2;
+}
+
+
+/* background color after white -> #EEF2F6 */
