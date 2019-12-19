@@ -1,5 +1,30 @@
+body {
+  margin: 0;
+}
 .nav-bar {
-  background-color: gray;
+  background-color: rgb(134, 134, 134);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.nav-bar ul li a:hover {
+  background-color: white;
+  color: cornflowerblue;
 }
 
 .nav-bar ul {
@@ -11,12 +36,10 @@
   padding: 15px;
   text-decoration: none;
 }
-.nav-bar ul {
-  display: flex;
-  list-style: none;
-}
 
-.nav-bar ul li a {
-  padding: 15px;
-  text-decoration: none;
+.header-section {
+  margin-top: 80px;
+  height: 100vh;
+  background-image: url(http://www.trip4x4.co.il/images/newnewslide.jpg);
+  background-size: cover;
 }
