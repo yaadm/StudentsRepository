@@ -40,6 +40,6 @@ body {
 .header-section {
   margin-top: 80px;
   height: 100vh;
-  background-image: url(http://www.trip4x4.co.il/images/newnewslide.jpg);
+  background-image: url("http://www.trip4x4.co.il/images/newnewslide.jpg");
   background-size: cover;
 }
