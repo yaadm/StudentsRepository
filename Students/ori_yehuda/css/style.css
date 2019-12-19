@@ -1,13 +1,4 @@
 .nav-bar {
-<<<<<<< HEAD
-  background-color: black;
-  color: white;
-}
-
-.nav-bar ul {
-  display: flex;
-  list-style: none;
-=======
   background-color: darkblue;
 }
 .nav-bar {
@@ -20,5 +11,9 @@
 .nav-bar ul {
   display: flex;
   list-style-type: none;
->>>>>>> oriyehuda
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi40bzDncLmAhXS2qQKHTsmC1wQjRx6BAgBEAQ&url=https%3A%2F%2Fwhatculture.com%2Fcomics%2Fthe-flash-ranking-every-character-from-worst-to-best&psig=AOvVaw1LAPoCyHOzJdrC0Z0wumO6&ust=1576862685999728");
+  background-size: cover;
 }
