@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .nav-bar {
   background-color: blue;
 }
@@ -9,4 +12,61 @@
 .nav-bar ul li a {
   padding: 15px;
   text-decoration: none;
+}
+.nav-bar {
+  background-color: blanchedalmond;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-bar ul li {
+  text-align: center;
+}
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: chocolate;
+  color: black;
+  padding: 5px;
+}
+.nav-bar ul li a:hover {
+  background-color: white;
+  color: cornflowerblue;
+}
+.header-section {
+  height: 150vh;
+  background-image: url("https://www.photo-art.co.il/wp-content/uploads/2015/06/IMG_40661.jpg");
+  background-size: cover;
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://www.photo-art.co.il/wp-content/uploads/2015/06/IMG_40661.jpg");
+  background-size: cover;
+  background-color: red (128, 128, 128);
+  background-blend-mode: multiply;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-section div {
+  color: blanchedalmond;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: red (128, 128, 128, 0.5);
+  padding: 15px;
+  border-redius: 5px;
+}
+.main-button {
+  display: inline-block;
+  text-decoration: red;
+  background-color: salmon;
+  color: thistle;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.main-button:hover {
+  background-color: green;
 }
