@@ -1,5 +1,9 @@
 .nav-bar {
   background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .nav-bar ul {
   display: flex;
@@ -8,4 +12,10 @@
 .nav-bar ul li a {
   padding: 15px;
   text-decoration: none;
+  color: white;
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://ksr-ugc.imgix.net/assets/024/842/687/d3386f9be112cbdd99241db3a4a15c70_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1555756424&auto=format&frame=1&q=92&s=00ed003c5b0ae221de4570ab77aa5442");
+  background-size: cover;
 }
