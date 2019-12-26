@@ -7,6 +7,6 @@
     overflow: hidden;
 }
 
-.nav-bar li {
+.nav-bar ul li {
     float: right;
 }
