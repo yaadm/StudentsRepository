@@ -1,8 +1,28 @@
 .nav-bar {
-  background-color: antiquewhite;
+  background-color: cornflowerblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav-bar ul {
   display: flex;
   list-style: none;
+}
+
+.nav-bar ul li {
+  text-align: center;
+}
+
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.nav-bar ul li a:hover {
+  background-color: rgb(34, 180, 34);
+  color: rgb(233, 19, 19);
 }
