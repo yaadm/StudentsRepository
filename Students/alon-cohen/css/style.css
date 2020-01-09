@@ -23,6 +23,6 @@
   padding: 15px;
 }
 .nav-bar ul li a:hover {
-  background-color: rgb(34, 180, 34);
+  background-color: rgba(0, 15, 221, 0.418);
   color: rgb(233, 19, 19);
 }
