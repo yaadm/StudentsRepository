@@ -26,3 +26,8 @@
   background-color: rgba(0, 15, 221, 0.418);
   color: rgb(233, 19, 19);
 }
+.header-section {
+  height: 100vh;
+  background-image: url("https://cdn.babamail.co.il/Images/2013/7/24/d57ffb00-7651-4ffa-a346-1a509d9fdd0f.jpg");
+  background-size: cover;
+}
