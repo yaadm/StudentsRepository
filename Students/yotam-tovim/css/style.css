@@ -15,3 +15,18 @@
   width: 60px;
   padding: 15px;
 }
+.nav-bar ul li a:hover {
+  background-color: white;
+  color: cornflowerblue;
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://files.geektime.co.il/wp-content/uploads/2018/04/GettyImages-641778984-1523445670.jpg");
+  background-size: cover;
+}
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: Arial, Helvetica, sans-serif;
+}
