@@ -31,12 +31,5 @@ body {
 
 .header-section {
   height: 100vh;
-  background-image: url("https://www.gadgety.co.il/wp-content/themes/main/thumbs/2017/01/prison-break-season-5-returns-april-4.jpg");
-  background-size: cover;
-  background-color: rgba(128, 128, 128);
-  background-blend-mode: multiply;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-image: url("https://cdn.onebauer.media/one/media/5d18/8071/2851/e25e/3066/174e/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg");
 }
