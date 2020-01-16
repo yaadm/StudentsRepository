@@ -1,8 +1,36 @@
-.nav-bar {
-  background-color: beige;
-}
-
 .nav-bar ul {
   display: flex;
   list-style: none;
+}
+.nav-bar {
+  background-color: rgb(187, 100, 237);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-bar ul li {
+  text-align: center;
+}
+.nav-bar ul li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.nav-bar ul li a:hover {
+  background-color: rgb(166, 187, 226);
+  color: rgb(226, 154, 199);
+}
+.header-section {
+  height: 100vh;
+  background-image: url("https://www.stickdecor.co.il/files/products/image3_2549_2017-08-14_13-35-31.jpg");
+  background-size: cover;
+}
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
