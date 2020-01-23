@@ -27,10 +27,53 @@
   height: 100vh;
   background-image: url("https://www.stickdecor.co.il/files/products/image3_2549_2017-08-14_13-35-31.jpg");
   background-size: cover;
+  background-color: rgba(128, 128, 128);
+  background-blend-mode: multiply;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 body {
   padding: 0;
   margin: 0;
   direction: rtl;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header-section div {
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+}
+.main-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: mediumseagreen;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.main-button:hover {
+  background-color: black;
+}
+.cards-container {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 20%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+  min-width: 200px;
 }
