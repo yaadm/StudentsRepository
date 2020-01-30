@@ -8,7 +8,7 @@ body {
   background-color: cornflowerblue;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0; 
   right: 0;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .header-section {
   height: 100vh;
-  background-image: url("https://www.gadgety.co.il/wp-content/themes/main/thumbs/2017/01/prison-break-season-5-returns-april-4.jpg");
+  background-image: url("https://media.wired.com/photos/5926d033af95806129f50b6f/master/w_582,c_limit/strangerthingsgif.0.gif");
   background-size: cover;
   background-color: rgba(128, 128, 128);
   background-blend-mode: multiply;
