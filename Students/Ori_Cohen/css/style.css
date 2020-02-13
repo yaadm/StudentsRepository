@@ -60,3 +60,60 @@ body {
 .main-button:hover {
   background-color: green;
 }
+.cards-container {
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  min-width: 200px;
+  flex: 0 0 20%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+}
+.card-image {
+  height: 200px;
+  background-image: url("https://f.frogi.co.il/s/2019/0819/88a9df34a68bb.jpg");
+  background-size: cover;
+  padding: 15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-image1 {
+  height: 200px;
+  background-image: url("");
+  background-size: cover;
+  padding: 15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-image2 {
+  height: 200px;
+  background-image: url("https://images1.calcalist.co.il/PicServer3/2019/06/30/916955/10_l.jpg");
+  background-size: cover;
+  padding: 15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.category {
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+  padding: 6px 25px;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
