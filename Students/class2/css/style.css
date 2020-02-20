@@ -1,12 +1,13 @@
 .nav-bar {
-    background-color: black;
-    color: white;
+  background-color: rgba(13, 36, 243, 0.596);
+  color: white;
 }
 
 .nav-bar ul {
-    overflow: hidden;
+  display: flex;
+  list-style: none;
 }
 
 .nav-bar ul li {
-    float: right;
+  float: right;
 }
