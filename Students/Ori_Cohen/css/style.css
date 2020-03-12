@@ -31,7 +31,7 @@ body {
 
 .header-section {
   height: 100vh;
-  background-image: url("https://media.wired.com/photos/5926d033af95806129f50b6f/master/w_582,c_limit/strangerthingsgif.0.gif");
+  background-image: url("https://upload.wikimedia.org/wikipedia/he/thumb/0/02/FAUDA1.jpg/265px-FAUDA1.jpg");
   background-size: cover;
   background-color: rgba(128, 128, 128);
   background-blend-mode: multiply;
@@ -79,7 +79,7 @@ body {
 }
 .card-image {
   height: 200px;
-  background-image: url("https://f.frogi.co.il/s/2019/0819/88a9df34a68bb.jpg");
+  background-image: url("");
   background-size: cover;
   padding: 15px;
   border-top-left-radius: 4px;
@@ -88,7 +88,7 @@ body {
 
 .card-image1 {
   height: 200px;
-  background-image: url("");
+  background-image: url("https://img.wcdn.co.il/f_auto,w_1000/2/5/6/1/2561022-46.jpg");
   background-size: cover;
   padding: 15px;
   border-top-left-radius: 4px;
@@ -97,7 +97,7 @@ body {
 
 .card-image2 {
   height: 200px;
-  background-image: url("https://images1.calcalist.co.il/PicServer3/2019/06/30/916955/10_l.jpg");
+  background-image: url("");
   background-size: cover;
   padding: 15px;
   border-top-left-radius: 4px;
