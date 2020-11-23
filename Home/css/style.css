@@ -1461,12 +1461,12 @@ h5,
 }
 
 .courses-entry-wrap {
-    margin-top: -262px;
+    margin-top: -246px;
 }
 
 @media (max-width: 1199.98px) {
     .courses-entry-wrap {
-        margin-top: -246px;
+        margin-top: -256px;
     }
 }
 
