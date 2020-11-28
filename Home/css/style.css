@@ -1652,8 +1652,15 @@ h5,
     display: initial;
 }
 
+.show-only-desktop {
+    display: none;
+}
+
 @media (min-width: 992px) {
     .show-only-mobile {
         display: none;
+    }
+    .show-only-desktop {
+        display: initial;
     }
 }
