@@ -1656,6 +1656,11 @@ h5,
     display: none;
 }
 
+.center-button {
+    margin-right: auto !important;
+    margin-left: auto;
+}
+
 @media (min-width: 992px) {
     .show-only-mobile {
         display: none;
